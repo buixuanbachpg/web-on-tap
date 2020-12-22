@@ -16,11 +16,11 @@ var utils = {
         pass:'xuanbach123@'
     },
     DB: {
-        HOST: 'g8mh6ge01lu2z3n1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+        HOST: 'localhost',
         PORT: '3306',
-        USER: 'hxw7cqnmnsfk1wub',
-        PWD: 'z6092mpq42ywjc2d',
-        DB_NAME: 'tniged9q8a1ud8b8'
+        USER: 'root',
+        PWD: 'root',
+        DB_NAME: 'web-on-tap'
     }
 }
  

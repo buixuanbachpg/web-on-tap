@@ -1,13 +1,13 @@
 var mysql = require('mysql');
-var opts = require('../fn/utils');
+var utils = require('../fn/utils');
 
 var createConnection = () => {
     return mysql.createConnection({
-        host: opts.DB.HOST,
-        port: opts.DB.PORT,
-        user: opts.DB.USER,
-        password: opts.DB.PWD,
-        database: opts.DB.DB_NAME
+        host: utils.DB.HOST,
+        port: utils.DB.PORT,
+        user: utils.DB.USER,
+        password: utils.DB.PWD,
+        database: utils.DB.DB_NAME
     });
 }
 
